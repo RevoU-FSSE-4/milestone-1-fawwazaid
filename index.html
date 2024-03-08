@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cyber2club</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html" class="logo">Cyber2Club</a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#facilities">FACILITIES</a></li>
+                    <li><a href="#testi">TESTIMONIALS</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" nclick="showMenu()"></i>
+
+        </nav>
+        
+    <div class="text-box" id="home">
+        <h1>Welcome to our Internet Cafe</h1>
+        <h2>OPEN 24 HOURS</h2>
+        <p>GAMING . WATCHING . DINING</p>
+        <a href="#contact" class="hero-btn">Book Now!</a>
+    </div>   
+    </section>
+
+
+    <section class="about" id="about">
+        <h1>Our Internet Cafe</h1>
+        <p></p>
+        <p>We've been established since 2022 till now, our mottos are:</p>
+        <ul>
+            <li>Where the Games Never End, and the Fun Never Stops!</li>
+            <li>Elevate Your Gaming Experience to the Next Level.</li>
+            <li>Unleash Your Inner Gamer in the Ultimate Gaming Hub.</li>
+        </ul>
+        <div class="row">
+            <div class="about-col">
+                <img src="https://watermark.lovepik.com/photo/50041/3971.jpg_wh1200.jpg" alt="Coworking Area">
+                <div class="layer">
+                    <h3>Coworking Area</h3>
+                </div>
+                <div class="about1-col">
+                    <h3>Coworking Area</h3>
+                    <p>Good place to get the s**t done</p>
+                </div>
+            </div>
+            <div class="about-col">
+                <img src="https://th.bing.com/th/id/OIP.zTSiO4W_0Jc0QFjK8ox3WAAAAA?w=474&h=355&rs=1&pid=ImgDetMain" alt="E-sport Area">
+                <div class="layer">
+                    <h3>E-sport Area</h3>
+                </div>
+                <div class="about1-col">
+                    <h3>E-Sport Area</h3>
+                    <p>Mastering you favorite MOBA never been so comfortable with our gaming setup.</p>
+                </div>
+            </div>
+            <div class="about-col">
+                <img src="https://th.bing.com/th/id/OIP.Q-VSc0OPz4SpJocTe_5dPQHaFj?w=2560&h=1920&rs=1&pid=ImgDetMain" alt="Simulator Area">
+                <div class="layer">
+                    <h3>Simulator Area</h3>
+                </div>
+                <div class="about1-col">
+                    <h3>Simulator Area</h3>
+                    <p>VR, Simulator or even VMC we got your back!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="facilities" id="facilities">
+        <h1>Our Facilities</h1>
+       
+        <div class="row">
+            <div class="facilities-col">
+                <img src="https://media.timeout.com/images/103848985/630/472/image.jpg">
+                <h3>Cinema</h3>
+                <p>Tired of gaming? you can sit down and relax while wathing you favorite movies and anime.</p>
+            </div>
+            <div class="facilities-col">
+                <img src="https://wallpapercave.com/wp/wp7833537.jpg">
+                <h3>Cafetaria</h3>
+                <p>We have plenty food and drink to enjoy!</p>
+            </div>            
+            <div class="facilities-col">
+                <img src="https://s3.voyapon.com/wp-content/uploads/2021/02/22200331/mangacafe_Lucia_16.jpg">
+                <h3>Library</h3>
+                <p>We have all the book references you to help you with your researches, and also mangas.</p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="cta" id="contact">
+        <h1>Book your favorite Internet Cafe Here!!!</h1>
+        <a href="" class="hero-btn">CONTACT US</a>
+    </section>
+
+    <section class="footer" id="footer">
+        <h4>About Us</h4>
+        <p>Easy to book your PC, more discount, more game choice, 24h online and more</p>
+        <p>&copy;2024 Cyber2Club</p>
+    </section>
+
+
+    <script>
+        let navLinks = document.getElementById("navlinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px"
+        }
+    </script>
+</body>
+</html>
